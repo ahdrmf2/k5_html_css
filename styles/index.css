@@ -1,0 +1,77 @@
+/* *{
+    margin: 10px;
+    padding: 10px; }*/
+
+body {
+    background-color: rgba(255, 255, 255, 0.483);
+}
+/* 셀렉터 자리 h1 태그 글자 */
+h1 {
+    background-color: blanchedalmond;
+    padding: 10px; 
+    color: black;
+    margin-bottom: 1px;
+    border: 1px 
+    text-align: center;
+}
+
+ol,ul,h1 {
+    border : 1px solid black;
+}
+
+ul{
+    display: flex;
+    list-style-type: none; 
+    padding: 50px;   
+    margin: 30px;
+}
+ul > li > a {
+    margin : 10px;
+    padding: 100px;
+    border-radius:  10px;
+    background-color: rgb(136, 255, 0);
+    color:white;
+    padding: 10px;
+}
+ol > li {
+    border: 1px dotted rgb(0, 0, 0);
+    font-family: verdana;
+    font-size: 20px;
+    padding :20px;
+    margin-left: 5px;
+}
+
+/* 마우스 올리면 색 바뀌는거 */
+ol > li:hover {  
+    background-color: aliceblue;
+}
+
+
+a {text-decoration:none;}     
+
+ul > li > a:hover {
+    background-color: white(136, 255, 0);
+    color:rgb(35, 86, 225);
+}
+section,article{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+ 
+}
+article{
+    margin-top: 50px;
+    
+}
+
+main {  
+    width: 60vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20vw;
+}
+

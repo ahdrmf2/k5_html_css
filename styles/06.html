@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        main, section,ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; 
+        }
+        main {
+        /* 메인박스라 width, height 사용 */
+            width: 60vw;
+            height: 60vh;
+            margin-left: 20vw;
+            background-color: blue;
+            /* 플렉스 박스는 중심축을 잡을수잇음 */
+        }
+        section {
+            background-color: aliceblue;
+            width: 80%;
+            height: 60%;
+        }
+        ul {
+            background-color: beige;
+            /* border 두께 solid 실선 */
+            border: 1px dotted black;
+            width: 80%;
+            height: 80%;
+        }
+        li {
+            border: 2px solid rgb(22, 154, 64);
+            width: 80%;
+            padding: 10px;
+            margin: 10px;    
+           
+        }
+            
+        span {
+            background-color: green;
+            color: wheat;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+            padding: 5px;
+            width:  30%;
+            height: 40px;
+            font-size: 1.2rem;
+            margin-left: 0vw;
+        }
+        @media (max-width:1024px) {
+            main{
+                width: 100vw;
+                margon -left 0px;
+            }
+        }
+    </style>
+    <title>css복습</title>
+</head>
+<body>
+    <main>
+        <section>
+            <ul>
+                <li><span>박스1</span><span>입니다.</span></li>
+                <li><span style='background-color: bisque; color:  blue;'>박스2</span></li>
+            </ul>
+        </section>
+    </main>    
+</body>
+</html>
+
+
+<!-- /* 마우스 올리면 색 바뀌는거 */
+ol > li:hover {  
+    background-color: aliceblue;
+} -->
