@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+main, header {
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    margin-left: 10vw;
+
+}
+main {
+    margin-top: 20px;
+    flex-direction: column;
+    }
+/* 메인과 헤더에 같은 부분이 있어서 묶어서 사용 */
+header{
+    justify-content: space-between;
+    height: 10vh;
+    padding: 10px;
+    background-color: rgba(33, 181, 226, 0.728);
+    color: white;
+    margin-left: 10vw;
+    border-radius: 30px;
+}
+
+nav > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav li {
+    margin: 0px 10px;
+    padding: 5px;
+    background-color:  ;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+nav a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color:white;
+    color: rgba(33, 181, 226, 0.728);
+    border-radius: 15px;
+    border: 0px;
+}
+
+button:hover { 
+    background-color:rgba(33, 181, 226, 0.728);
+    color: rgba(253, 255, 255, 0.871);
+}
+
+/* main {
+    width: 60vw;
+    height: 100vh;
+    background-color:;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    margin-left: 20vw;
+} */

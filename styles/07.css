@@ -1,0 +1,17 @@
+#btDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 222, 162);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    width: 50%;
+    height: 80px;
+    
+}

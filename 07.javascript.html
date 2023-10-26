@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" text="text/css" href="./styles/container.css">
+    <link rel="stylesheet" text="text/css" href="./styles/07.css">
+    <title>자바스크립트</title>
+    <script>  
+       // function hello(n) {
+       //     alert("Hello! 버튼" + n)
+       // }
+// const 안변하는것 let는 바꿀 수있음 let,const는 자바 스크립트에서만 
+        
+
+        const hello = (n) => {
+            //alert("Hello! 버튼" + n);
+            //document.getElementById('msg').innerHTML = "<h2>Hello! 버튼" + n + "</h2>"
+            //document.querySelector('#msg').innerHTML = "<h2>Hello! 버튼" + n + "</h2>";
+            document.querySelector('.cmsg').innerHTML = "<h2>Hello! 버튼" + n + "</h2>";
+    } ;
+    </script>
+</head>
+<body>
+    <header>
+        <h1> 자바스크립트</h1>
+        <nav>
+            <ul>
+                <li><a href="https://www.w3schools.com/">w3schools HTML</a></li>
+                <li><a href="https://www.w3schools.com/">w3schools JS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>자바스크립트01</h1>
+        <div id="btDiv">
+            <button onclick="hello(1)">버튼1을 눌러주세요.</button>
+            <button onclick="hello(2)">버튼2를 눌러주세요.</button>
+        </div>
+        <div id="msg" class='cmsg'>
+        </div>
+    </main>
+</body>
+</html>
