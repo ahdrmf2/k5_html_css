@@ -2,19 +2,23 @@
     margin: 0px;
     padding: 0px;
 }
-main, header {
+
+main,
+header {
     display: flex;
     align-items: center;
     width: 80vw;
     margin-left: 10vw;
-
 }
+
 main {
     margin-top: 20px;
     flex-direction: column;
-    }
+
+}
+
 /* 메인과 헤더에 같은 부분이 있어서 묶어서 사용 */
-header{
+header {
     justify-content: space-between;
     height: 10vh;
     padding: 10px;
@@ -24,7 +28,7 @@ header{
     border-radius: 30px;
 }
 
-nav > ul{
+nav>ul {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,17 +38,19 @@ nav > ul{
 nav li {
     margin: 0px 10px;
     padding: 5px;
-    background-color:  ;
+    background-color: ;
 }
+
 nav a {
     text-decoration: none;
     color: white;
     padding: 5px;
     border-radius: 20px;
 }
+
 nav a:hover {
     background-color: aliceblue;
-    color: black;
+    color: rgb(73, 73, 73);
 }
 
 button {
@@ -52,14 +58,14 @@ button {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background-color:white;
+    background-color: white;
     color: rgba(33, 181, 226, 0.728);
     border-radius: 15px;
     border: 0px;
 }
 
-button:hover { 
-    background-color:rgba(33, 181, 226, 0.728);
+button:hover {
+    background-color: rgba(33, 181, 226, 0.728);
     color: rgba(253, 255, 255, 0.871);
 }
 

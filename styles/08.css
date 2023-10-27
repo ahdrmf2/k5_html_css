@@ -2,8 +2,8 @@ main {
     padding: ;
     border: ;
 }
-section{
-    width: 80%;
+section {
+    width: 50%;
     padding: 20px;
     border: 1px solid slategray;
     display: flex;
@@ -11,6 +11,10 @@ section{
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
+}
+section2 {
+    width: 50%;
+    padding: 40px;
 }
 .btC {
     display: flex;
@@ -22,9 +26,26 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(255, 222, 162);
+    
     color: rgb(255, 255, 255);
     font-weight: bold;
     width: 80%;
     height: 80px;
 }
+
+#secDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    width: 50%;
+}
+
+.btC1 {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
