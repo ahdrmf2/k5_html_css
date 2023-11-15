@@ -1,7 +1,4 @@
-main {
-    padding: ;
-    border: ;
-}
+
 section {
     width: 50%;
     padding: 20px;
@@ -40,6 +37,11 @@ section2 {
     /* flex-direction: column; */
     width: 50%;
 }
+h2, #btDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 .btC1 {
     margin: 10px;

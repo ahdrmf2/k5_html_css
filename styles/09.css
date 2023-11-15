@@ -1,0 +1,14 @@
+#btDiv2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#txt {
+  height: 40px;
+  margin-right: 10px;
+}
+
+#bt {
+  width: 150px;
+}
