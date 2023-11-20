@@ -1,0 +1,40 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border: 1px solid gray;
+
+}
+#d1, #d2, #d3 {
+  margin: 0px;
+}
+
+#bt {
+  margin: 10px;   
+}
+
+#bt > button {
+  width: 240px;
+}
+
+
+.fdivbt, #bt {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+}
+
+.div1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
